@@ -6,7 +6,7 @@ variables:
   - template: variable_teamplate.yaml
 
 trigger:
-- dev
+- $(branch)
 
 pool:
   vmImage: ubuntu-latest
