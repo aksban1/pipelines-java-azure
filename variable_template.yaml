@@ -1,0 +1,3 @@
+variables:
+  appname: hi
+  version: 3.4.5
